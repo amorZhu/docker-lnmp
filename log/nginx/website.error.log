@@ -1,0 +1,6 @@
+2017/11/15 09:40:15 [error] 7#7: *1 directory index of "/var/www/html/fastadmin/public/" is forbidden, client: 172.17.0.1, server: website.fastadminamor.com, request: "GET / HTTP/1.1", host: "website.fastadminamor.com"
+2017/11/15 09:42:18 [error] 7#7: *3 directory index of "/var/www/html/fastadmin/public/" is forbidden, client: 172.17.0.1, server: website.fastadminamor.com, request: "GET / HTTP/1.1", host: "website.fastadminamor.com"
+2017/11/15 09:45:51 [error] 7#7: *5 directory index of "/var/www/html/fastadmin/public/" is forbidden, client: 172.17.0.1, server: website.fastadminamor.com, request: "GET / HTTP/1.1", host: "website.fastadminamor.com"
+2017/11/15 09:47:22 [error] 7#7: *7 directory index of "/var/www/html/fastadmin/public/" is forbidden, client: 172.17.0.1, server: website.fastadminamor.com, request: "GET / HTTP/1.1", host: "website.fastadminamor.com"
+2017/11/15 09:47:24 [error] 7#7: *7 directory index of "/var/www/html/fastadmin/public/" is forbidden, client: 172.17.0.1, server: website.fastadminamor.com, request: "GET / HTTP/1.1", host: "website.fastadminamor.com"
+2017/11/15 09:49:41 [error] 7#7: *9 directory index of "/var/www/html/fastadmin/public/" is forbidden, client: 172.17.0.1, server: website.fastadminamor.com, request: "GET / HTTP/1.1", host: "website.fastadminamor.com"
