@@ -1,13 +1,12 @@
 php-fpm:
   build: .
   expose:
-    - 9000
+    - "9000"
   volumes:
     - /data/nutcloud/ubuntu/website/:/var/www/html/:rw
-  links:
-    - mysql:mysql
-    - redis:redis
-    - ./log/php-fpm/:/var/log/php-fpm/:rw
+    # 通过观察原镜像得知：扩展配置目录
+    - ./conf/php-fpm/conf.d/:/usr/local/etc/php/conf.d/:rw
+    - ./run/mysqld/:/run/mysqld/
   links:
     - mysql:mysql
     - redis:redis
@@ -17,11 +16,14 @@ mysql:
   ports:
     - "3306:3306"
   volumes:
-    - ./conf/mysql/conf.d/my.cnf:/etc/mysql/conf.d/mysql.cnf:ro
     - ./mysql/:/var/lib/mysql/:rw
-    - ./log/mysql/:/var/log/mysql/:rw
+    #  镜像原sock路径：/run/mysqld/mysqld.sock
+    - ./run/mysqld/:/run/mysqld/
   environment:
-    MYSQL_ROOT_PASSWORD: "root"
+      MYSQL_DATABASE: test
+      MYSQL_USER: root
+      MYSQL_PASSWORD: root
+      MYSQL_ROOT_PASSWORD: root
 
 
 redis:
