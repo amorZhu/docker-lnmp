@@ -5,3 +5,11 @@
 2017/11/15 09:37:29 [emerg] 1#1: invalid log level "main" in /etc/nginx/conf.d/website.fastadmin.com.conf:7
 2017/11/15 09:38:19 [emerg] 1#1: invalid log level "main" in /etc/nginx/conf.d/website.fastadmin.com.conf:7
 2017/11/15 09:39:07 [emerg] 1#1: invalid log level "main" in /etc/nginx/conf.d/website.fastadmin.com.conf:7
+2017/11/16 11:29:18 [notice] 14#14: signal process started
+2017/11/16 11:29:52 [notice] 18#18: signal process started
+2017/11/17 03:07:26 [notice] 29#29: signal process started
+2017/11/17 03:08:27 [notice] 31#31: signal process started
+2017/11/17 03:10:26 [notice] 33#33: signal process started
+2017/11/17 03:12:13 [notice] 35#35: signal process started
+2017/11/17 03:12:43 [notice] 37#37: signal process started
+2017/11/17 03:23:48 [notice] 42#42: signal process started
